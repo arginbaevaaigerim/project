@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { GlobalStyle } from "./styles/GlobalStyle";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import AboutUs from "./components/AboutUs";
+import Process from "./components/Process";
+import Education from "./components/Education";
+import Mentors from "./components/Mentors";
+import Office from "./components/Office";
+import ContactForm from "./components/ContactForm";
+import Kakprohditobuthenie from "./components/Kakprohoditobuthenie";
+import FormatiObuthenia from "./components/FormatiObuthenia";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <AboutUs />
+      <HeroSection />
+      <Process />
+      <Education />
+      <Kakprohditobuthenie/>
+      <FormatiObuthenia/>
+      <Mentors />
+      <Office />
+      <ContactForm />
+      <Footer/>
+    </>
   );
 }
 
 export default App;
+
+
+
+

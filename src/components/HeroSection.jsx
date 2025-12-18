@@ -17,11 +17,12 @@ justify-content:space-between;
 
 // Данные об иконках
 const icons = [
-  { id: 1, src: "https://th.bing.com/th/id/R.b003c8fae2d8aa56d40321f922f95543?rik=7qOoIbx72bM%2few&pid=ImgRaw&r=0" },
+  { id: 1, src: "https://imagedelivery.net/5MYSbk45M80qAwecrlKzdQ/5f7fdab2-ecb2-42e7-2abb-9d35133dcf00/preview" },
   { id: 2, src: "https://th.bing.com/th/id/R.8e102399bf2f2aa6050fdecf55e9117d?rik=GtCleW2xUIbrXg&pid=ImgRaw&r=0" },
   { id: 3, src: "https://th.bing.com/th/id/OIP.tN4gXLbU58rUPClx94DP2QHaHa?w=216&h=216&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
   { id: 4, src: "https://cdn3.iconfinder.com/data/icons/brands-pack/240/react-1024.png" },
-  { id: 5, src: "https://th.bing.com/th?q=Python+Icon.png&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=KG&setlang=ru&adlt=moderate&t=1&mw=247" }
+  { id: 5, src: "https://th.bing.com/th?q=Python+Icon.png&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=KG&setlang=ru&adlt=moderate&t=1&mw=247" },
+  { id: 6, src: "https://logospng.org/download/css-3/logo-css-3-2048.png" }
 ];
 
 // Анимация вращения
@@ -171,11 +172,12 @@ vertical-align: middle;
 color:#9897B0;
 `;
 const ContainerDlaStrelki = styled.div`
-width: 147px;
+display:flex;
+width: 160px;
 height: 28px;
 top: 374px;
 left: 610px;
-border: 2px solid #FF0000;
+
 `;
 
 const TextSoStrelcoi = styled.h3`
@@ -267,7 +269,7 @@ const HeroSection = () => {
         <TextPVkontainire>Фронтенд разработчик (англ. Frontend Developer) - это специалист в области веб-разработки, который занимается созданием пользовательских интерфейсов (UI) для веб-приложений, сайтов и других веб-ресурсов.</TextPVkontainire>
         < ContainerDlaStrelki>
         <TextSoStrelcoi>Подробнее
-          <Strelka>— </Strelka>
+          <Strelka>—</Strelka>
         </TextSoStrelcoi >
         </ ContainerDlaStrelki>
 
